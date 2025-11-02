@@ -1,0 +1,30 @@
+# Byte-compiled / Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data besar atau sementara
+data/*.csv
+data/*.xlsx
+data/*.xls
+
+# Model sementara / training
+models/*.pkl
+models/*.joblib
+
+# Logs
+*.log
+
+# VSCode settings
+.vscode/
