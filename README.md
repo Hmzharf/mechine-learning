@@ -9,10 +9,10 @@ Model sudah dilatih (Random Forest) dan siap pakai untuk inferensi pelanggan bar
 
 mechine-learning/
 │
-├─ notebook/           # Notebook Jupyter
-│   └─ churn_analysis.ipynb
+├─ ipynb/           # Notebook Jupyter
+│   └─ 13_231011403469_HAMZAH-ARIFIANTO_05TPLE016_UTS_MACHINE-LEARNING.ipynb
 ├─ data/               # Dataset
-│   └─ churn_cleaned.csv
+│   └─ churn-dataset.csv
 ├─ models/             # Model hasil training
 │   └─ model.pkl
 ├─ requirements.txt    # Library Python
@@ -49,7 +49,7 @@ matplotlib
 2. Notebook sudah menggunakan **relative path**, jadi cukup buka di VSCode / Jupyter:
 
 ```python
-df = pd.read_csv("../data/churn_cleaned.csv")
+df = pd.read_csv("../data/churn-dataset.csv")
 model = load("../models/model.pkl")
 ```
 
